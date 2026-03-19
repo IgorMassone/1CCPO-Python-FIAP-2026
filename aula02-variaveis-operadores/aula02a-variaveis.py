@@ -24,7 +24,7 @@ print(f"Oiiiii, {nome}!!!")
 # INPUT - SIMULAÇÃO DE FORMULÁRIOS NO CMD
 
 nome = input("Digite o seu nome: ")
-idade = int(input("Digite a sua idade: "))
+idade = int(input("Digite a sua idaede: "))
 peso = float(input("Digite o seu peso: "))
 
 print(nome, idade, peso)
