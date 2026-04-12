@@ -5,5 +5,5 @@ def ler_numeros():
     return n1,n2, operador
 
 def calculo(n1,n2,operador):
-    if operador == "+":
+    if operador == "+":w
         print(n1+n2)
