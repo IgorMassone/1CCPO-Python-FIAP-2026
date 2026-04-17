@@ -1,6 +1,6 @@
 while True:
     try:
-        numero = float(input("Digite um número: "))
+        numero = int(input("Digite um número: "))
         break
     except ValueError:
         print("Digite um número!")
