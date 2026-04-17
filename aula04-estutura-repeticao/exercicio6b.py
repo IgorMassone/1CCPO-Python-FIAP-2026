@@ -11,8 +11,8 @@ def lacofor(numero):
     soma = 0
     for i in range(1, int(numero)):  
         soma += i 
-        print(soma)  
-    print(soma)
+        print(soma)#Mostra a cada interação no loop. 
+    print(soma)#Mostra apenas o valor final
 
 
 numero = whilenumero()

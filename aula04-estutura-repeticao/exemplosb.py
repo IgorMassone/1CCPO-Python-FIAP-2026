@@ -16,7 +16,7 @@ print(f"A media será de: {media}")
 def receber_nota(a,b):
     return (a+b) / 2
 
-print("A média é: " + receber_nota(5,10))
+print(f"A média é: {receber_nota(5,10)}")
 
 
 
