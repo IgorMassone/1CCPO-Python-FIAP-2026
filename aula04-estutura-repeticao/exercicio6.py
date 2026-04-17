@@ -7,7 +7,7 @@ while True:
 
 soma = 0
 
-for i in range(1, int(numero)):
+for i in range(1,(numero)):
     soma += i
     print(soma)
 
