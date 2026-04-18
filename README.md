@@ -1,11 +1,19 @@
-# 1CCPO-Python-FIAP-2026
+# 🐍 Automação com Python — FIAP 2026
 
-Este repositório reúne os arquivos desenvolvidos durante as aulas de Automação com Python, com o objetivo de praticar e aprimorar minha lógica de programação utilizando a linguagem Python.
+Repositório com exercícios desenvolvidos durante as aulas de Python no curso de 
+Ciência da Computação da FIAP, com foco em prática de lógica de programação.
 
-Ao longo desse período, tive contato com conceitos fundamentais como estruturas condicionais, laços de repetição, funções e organização de código, aplicando esses conhecimentos na resolução de exercícios práticos.
+## 📚 Conteúdos abordados
 
-Durante o processo, enfrentei desafios principalmente na estruturação do código e no uso adequado de funções, buscando escrever soluções mais limpas e organizadas.
+- Variáveis e operadores
+- Estruturas condicionais (`if`, `match-case`)
+- Funções e módulos
+- Laços de repetição (`for`, `while`)
 
-Esse aprendizado tem contribuído diretamente para o desenvolvimento do meu raciocínio lógico e para a criação de códigos mais legíveis, eficientes e bem estruturados.
+## 🛠️ Tecnologia
 
-Conforme avanço nos estudos, continuo focado em evoluir minhas práticas de programação, aprimorando a organização, clareza e qualidade do código.
+- Python 3.11
+
+## 👤 Autor
+
+Igor — 1º ano de Ciência da Computação, FIAP  
