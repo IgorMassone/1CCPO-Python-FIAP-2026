@@ -7,4 +7,6 @@ def count_letters(s):
             d[c] += 1
     return d
 
-print(count_letters("ageurbolox"))
+palavra = input("Digite uma palavra: ")
+dict_contagem = count_letters(palavra)
+print(dict_contagem)
