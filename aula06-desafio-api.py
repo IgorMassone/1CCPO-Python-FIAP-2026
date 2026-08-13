@@ -15,4 +15,13 @@ status = [
 
 def eh_sucesso(codigo):
     return codigo >= 200 and codigo <= 299
-print(eh_sucesso(401))
+# print(eh_sucesso(401))
+
+# FUNÇÃO QUE VERIFICA SE TEM 2 ERROS SEGUIDOS
+# NA LISTA DE REQUISIÇÕES DE 1 ENDPOINT
+#[200, 200, 401, 200, 500] --> false
+# [201, 500, 502, 201, 500] --> true
+
+def dois_erros_seg(lista_req):
+    for i in range
+
