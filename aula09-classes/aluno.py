@@ -10,3 +10,7 @@ class Aluno:
     
     def matricular(self, disciplina: Disciplina): #Tipo: Disciplina é a classe.
         self.disciplinas.append(disciplina)
+        self.notas_por_disciplina.setdefault(disciplina.nome, []) #Setar um padrão inicial
+
+    def adicionar_nota(self, disciplina: Disciplina, nota: float): #Tipo de dados
+        self.notas_por_disciplina[disciplina.nome].append(nota)
