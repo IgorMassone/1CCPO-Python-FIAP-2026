@@ -23,6 +23,8 @@ class Aluno:
     
     def calcular_media_g(self) -> float:
         medias = []
+        if not self.disciplinas:
+            return 0
         for d in self.disciplinas:
             media_d = self.calcular_media_d(d)
             medias.append(media_d)
