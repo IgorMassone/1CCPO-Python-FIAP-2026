@@ -26,3 +26,5 @@ aluno1.adicionar_nota(cs, 3)
 
 print(aluno1.calcular_media_d(cs))
 print(aluno1.calcular_media_g())
+
+aluno1.exibir_boletim()

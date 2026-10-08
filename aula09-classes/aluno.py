@@ -30,3 +30,19 @@ class Aluno:
             medias.append(media_d)
         
         return sum(medias) / len(medias)
+
+    def exibir_boletim(self):
+        print("=" * 50)
+        print(f"BOLETIM - {self.nome} (RM {self.rm})")
+        print(f"Curso: {self.curso}")
+        print("=" * 50)
+
+        for d in self.disciplinas:
+            notas = self.notas_por_disciplina[d.nome]
+            media = self.calcular_media_d(d)
+
+            print(f"Disciplina: {d.nome}")
+            print(f"Professor: {d.professor}")
+            print(f"Notas: {notas}") # {', '.join(str(n) for n in notas)}
+            print(f"Média: {media:.2f}")
+            print("-" * 50)
