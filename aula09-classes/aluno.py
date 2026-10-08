@@ -17,6 +17,8 @@ class Aluno:
 
     def calcular_media_d(self, d: Disciplina) -> float:
         notas = self.notas_por_disciplina.get(d.nome, [])
+        if not notas:
+            return 0
         return sum(notas) / len(notas)
     
     def calcular_media_g(self) -> float:
